@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1446</width>
+    <height>711</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>1231</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>7</number>
+    </property>
+    <property name="columnCount">
+     <number>11</number>
+    </property>
+    <row>
+     <property name="text">
+      <string>По длине трех сторон</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Координатам трех вершин</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Длине двух сторон и углу между ними</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Длине одной  стороны и двум углам </string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Координатам вершин одной стороны и двум углам</string>
+     </property>
+    </row>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>Сторона 1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Сторона 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Сторона 3</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Угол 1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Угол 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Угол 3</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Координаты вершины1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Координаты вершины 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Координаты вершины 3</string>
+     </property>
+    </column>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QPushButton" name="AddRow">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>60</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AddRow</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DelRow">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>120</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DelRow</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddCol">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>180</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AddCol</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DelCol">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DelCol</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GetSum">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>300</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GetSum</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>360</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelSum">
+    <property name="geometry">
+     <rect>
+      <x>1480</x>
+      <y>300</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SetRandom">
+    <property name="geometry">
+     <rect>
+      <x>1490</x>
+      <y>70</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SetRandom</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1446</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
